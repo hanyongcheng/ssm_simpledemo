@@ -7,7 +7,7 @@ public class Items {
     private String name;
     private Double price;
     private String pic;
-    private Date datetim;
+    private Date datetime;
     private String detail;
 
     public Integer getId() {
@@ -42,12 +42,12 @@ public class Items {
         this.pic = pic;
     }
 
-    public Date getDatetim() {
-        return datetim;
+    public Date getDatetime() {
+        return datetime;
     }
 
-    public void setDatetim(Date datetim) {
-        this.datetim = datetim;
+    public void setDatetime(Date datetime) {
+        this.datetime = datetime;
     }
 
     public String getDetail() {
